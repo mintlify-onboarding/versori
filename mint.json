@@ -1,0 +1,117 @@
+{
+  "name": "Versori",
+  "logo": {
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
+  },
+  "api": {
+    "baseUrl": [
+      "https://platform.versori.com/api/connections/v1alpha1",
+      "https://api.switchboard.svc.versori.io/v1alpha1/"
+    ]
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#2596BE",
+    "light": "#40B7E1",
+    "dark": "#2596BE"
+  },
+  "topbarCtaButton": {
+    "name": "Contact Sales",
+    "url": "https://www.versori.com/contact"
+  },
+  "topbarLinks": [
+    {
+      "name": "Book Demo",
+      "url": "https://meetings-eu1.hubspot.com/jon-naughton/website-inbound-book-a-demo-?__hstc=262840339.a7a3abc2fa3c36c2b63d6ad5c6ca7603.1690244275280.1690244275280.1690244275280.1&__hssc=262840339.1.1690244275281&__hsfp=3379522993"
+    }
+  ],
+  "tabs": [
+    {
+      "name": "Versori Connections API",
+      "url": "connections-api"
+    },
+    {
+      "name": "Switchboard API",
+      "url": "openapi-v1alpha1"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Versori Connections API",
+      "pages": [
+        {
+          "group": "Auth Schemes",
+          "pages": [
+            "connections-api/auth-schemes/Handle-OAuth2-Connection-Callback"
+          ]
+        },
+        {
+          "group": "Connections",
+          "pages": [
+            "connections-api/connections/Create-BigQuery-Connection",
+            "connections-api/connections/Create-HTTP-Connection",
+            "connections-api/connections/Delete-Connection",
+            "connections-api/connections/Get-Connection",
+            "connections-api/connections/List-Connection-Versions",
+            "connections-api/connections/List-Connections",
+            "connections-api/connections/Update-Connection"
+          ]
+        },
+        {
+          "group": "Credentials",
+          "pages": ["connections-api/credentials/List-Credentials"]
+        },
+        {
+          "group": "HTTP Protocol",
+          "pages": ["connections-api/protocol-http/List-Auth-Schemes"]
+        },
+        {
+          "group": "Protocols",
+          "pages": ["connections-api/protocols/List-Protocols"]
+        }
+      ]
+    },
+    {
+      "group": "Switchboard API",
+      "pages": [
+        {
+          "group": "Apps",
+          "pages": [
+            "openapi-v1alpha1/apps/delete-organisations-apps",
+            "openapi-v1alpha1/apps/get-apps-appID",
+            "openapi-v1alpha1/apps/get-apps",
+            "openapi-v1alpha1/apps/get-connections-oauth2-callback",
+            "openapi-v1alpha1/apps/get-organisations-apps",
+            "openapi-v1alpha1/apps/get-organisations-organisationId-apps",
+            "openapi-v1alpha1/apps/post-organisations-apps-operation-builder",
+            "openapi-v1alpha1/apps/post-organisations-apps",
+            "openapi-v1alpha1/apps/put-organisations-apps-appId"
+          ]
+        },
+        {
+          "group": "Boards",
+          "pages": [
+            "openapi-v1alpha1/boards/delete-organisations-boards",
+            "openapi-v1alpha1/boards/get-organisations-boards-boardId",
+            "openapi-v1alpha1/boards/get-organisations-boards-execution-logs",
+            "openapi-v1alpha1/boards/get-organisations-boards-out-of-date-board-nodes",
+            "openapi-v1alpha1/boards/get-organisations-boards",
+            "openapi-v1alpha1/boards/get-organisations-out-of-date-board-nodes",
+            "openapi-v1alpha1/boards/post-organisations-board-instances-incoming-webhooks",
+            "openapi-v1alpha1/boards/post-organisations-board-instances-trigger-execution",
+            "openapi-v1alpha1/boards/post-organisations-boards-publish",
+            "openapi-v1alpha1/boards/post-organisations-boards-unpublish",
+            "openapi-v1alpha1/boards/post-organisations-boards",
+            "openapi-v1alpha1/boards/put-organisations-boards"
+          ]
+        }
+      ]
+    }
+  ],
+  "footerSocials": {
+    "twitter": "https://twitter.com/SwitchboardData",
+    "linkedin": "https://www.linkedin.com/company/versori",
+    "youtube": "https://www.youtube.com/@versori775"
+  }
+}
