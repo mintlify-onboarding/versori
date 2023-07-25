@@ -26,11 +26,10 @@
       "url": "https://meetings-eu1.hubspot.com/jon-naughton/website-inbound-book-a-demo-?__hstc=262840339.a7a3abc2fa3c36c2b63d6ad5c6ca7603.1690244275280.1690244275280.1690244275280.1&__hssc=262840339.1.1690244275281&__hsfp=3379522993"
     }
   ],
+  "primaryTab": {
+    "name": "Versori Connections API"
+  },
   "tabs": [
-    {
-      "name": "Versori Connections API",
-      "url": "connections-api"
-    },
     {
       "name": "Switchboard API",
       "url": "openapi-v1alpha1"

@@ -774,8 +774,6 @@ components:
           description: |
             Name is the name of the Credential.
           type: string
-        authSchemeConfig:
-          $ref: "#/components/schemas/AuthSchemeConfig"
         data:
           type: object
           oneOf:
@@ -896,8 +894,6 @@ components:
           type: string
           description: |
             Name is the name of the Environment.
-        authSchemeConfig:
-          $ref: "#/components/schemas/AuthSchemeConfig"
         credentials:
           $ref: "#/components/schemas/EnvironmentCredentialsCreate"
         variables:
@@ -1217,9 +1213,6 @@ components:
         AuthSchemeConfigOAuth2AuthorizationCode defines the credential containing a client ID/client secret which should
         be used in conjunction with the Environment's Credential to issue new access_tokens from a refresh_token.
       type: object
-      properties:
-        applicationCredential:
-          $ref: "#/components/schemas/Credential"
       required:
         - applicationCredential
     AuthSchemeConfigOAuth2Flows:
